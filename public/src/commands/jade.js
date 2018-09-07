@@ -8,7 +8,10 @@ const recurse  = require('recursive-readdir');
 class jade {
     static compile(file, callback) {
         return new Promise(() => {
-            exec('jade '+file+' -P');
+            shell.exec('jade', [
+            file,
+            '-P'
+        ]);
         }).then(callback());
     }
     
