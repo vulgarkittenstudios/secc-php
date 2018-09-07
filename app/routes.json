@@ -1,0 +1,1 @@
+{"routes":[{"path":"/","controller":"home","method":"index","name":"home"}]}

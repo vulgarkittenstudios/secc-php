@@ -1,0 +1,19 @@
+{
+  "name": "secc-php",
+  "version": "1.0.0",
+  "description": "NPM modules for secc-php",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vulgarkittenstudios/secc-php.git"
+  },
+  "author": "theallmightyjohn",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vulgarkittenstudios/secc-php/issues"
+  },
+  "homepage": "https://github.com/vulgarkittenstudios/secc-php#readme"
+}

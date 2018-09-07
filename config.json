@@ -1,0 +1,52 @@
+{
+	"server": {
+
+		"base_url": "http://secc-php:8080"
+	},
+	
+	"composer": {
+		
+		"path":"~/composer.phar"
+	},
+
+
+	"db": {
+
+		"driver": "mysql",
+		"host": "127.0.0.1",
+		"name": "secc",
+		"username": "root",
+		"password": "",
+		"charset": "utf8",
+		"collation": "utf8_unicode_ci",
+		"prefix": ""		
+	},
+
+	"auth":
+	{
+		"session": "user_id",
+		"remember": "remember_id"
+	},
+
+	"hash":
+	{
+		"algo": 1,
+		"cost": 10
+	},
+
+	"csrf":
+	{
+		"session": "token"
+	},
+
+	"mail":
+	{
+		"smtp": true,
+		"secure": "ssl",
+		"host": "smtp.gmail.com",
+		"username": "",
+		"password": "",
+		"port": 465,
+		"html": true
+	}
+}

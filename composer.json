@@ -1,0 +1,19 @@
+{
+    "autoload": {
+        "psr-4": {
+            "secc\\": "app/"
+        }
+    },
+
+    "name": "theallmightyjohn/secc-php",
+    "description": "Lightweight MVC Framework",
+    "type": "project",
+    "require": {
+	"duncan3dc/blade": "^4.3",
+        "ircmaxell/random-lib": "^1.2",
+        "illuminate/database": "^5.7",
+        "phpmailer/phpmailer": "^6.0",
+        "filp/whoops": "^2.2"
+    },
+    "license": "Apache-2.0"
+}
