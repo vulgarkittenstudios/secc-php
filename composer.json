@@ -5,7 +5,7 @@
         }
     },
 
-    "name": "theallmightyjohn/secc-php",
+    "name": "vulgarkittenstudios/secc-php",
     "description": "Lightweight MVC Framework",
     "type": "project",
     "require": {

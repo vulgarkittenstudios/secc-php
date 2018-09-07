@@ -44,8 +44,8 @@
 		"smtp": true,
 		"secure": "ssl",
 		"host": "smtp.gmail.com",
-		"username": "",
-		"password": "",
+		"username": "john.manning89@gmail.com",
+		"password": "$omeguy1",
 		"port": 465,
 		"html": true
 	}
