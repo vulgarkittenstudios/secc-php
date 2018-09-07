@@ -25,7 +25,7 @@ class sass {
     }
     
     static scan(dir) {
-        recurse('./src/'+dir, (err, files) => {
+        recurse('./public/src/'+dir, (err, files) => {
             for(let i = 0; i < files.length; i++) {
                 let ext = str.getExt(files[i]);
                 
