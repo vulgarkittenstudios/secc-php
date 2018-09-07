@@ -8,8 +8,7 @@
     "name": "vulgarkittenstudios/secc-php",
     "description": "Lightweight MVC Framework",
     "type": "project",
-    "minimum-stability": "v1.0",
-    "stability": "v1.0",
+    "stability": "stable",
     "require": {
 	"duncan3dc/blade": "^4.3",
         "ircmaxell/random-lib": "^1.2",
